@@ -1,7 +1,7 @@
 .PHONY: build
 build:
-	docker build -t travisjeffery/mongos:1.0.0 .
+	docker build -t agrrh/mongos:4.0.6 .
 
 
 push:
-	docker push travisjeffery/mongos:1.0.0
+	docker push agrrh/mongos:4.0.6
